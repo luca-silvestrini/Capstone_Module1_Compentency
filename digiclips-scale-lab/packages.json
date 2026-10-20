@@ -1,0 +1,5 @@
+{
+  "shared":       {"path": "packages/shared",       "depends_on": []},
+  "transfer_api": {"path": "packages/transfer_api", "depends_on": ["shared"]},
+  "notifier":     {"path": "packages/notifier",     "depends_on": ["shared"]}
+}

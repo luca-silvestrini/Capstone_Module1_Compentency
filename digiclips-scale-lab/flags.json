@@ -1,0 +1,5 @@
+{
+  "resumable_uploads":  {"enabled": true,  "rollout_percent": 25, "allow_roles": ["admin"]},
+  "expiring_links_v2":  {"enabled": true,  "rollout_percent": 100, "allow_roles": []},
+  "virus_scan_gate":    {"enabled": false, "rollout_percent": 0,   "allow_roles": []}
+}

@@ -1,0 +1,15 @@
+{
+  "name": "transfer.created",
+  "version": 1,
+  "required": {
+    "transfer_id": "str",
+    "sender_email": "str",
+    "recipient_emails": "list",
+    "file_count": "int",
+    "total_bytes": "int",
+    "expires_at": "str"
+  },
+  "optional": {
+    "message": "str"
+  }
+}
